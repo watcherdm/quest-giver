@@ -1,20 +1,26 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const connectDB = require('./config/db')
-const adventures = require('./routes/api/adventures')
+const { connectMongoDB, connectSequelize } = require('./config/db')
+const setupAdventureRoute = require('./routes/api/adventures')
 const path = require('path')
 const cors = require('cors')
-
+const Record = require('./models/Record')
 const app = express()
 
-connectDB()
+const bootstrap = async () => {
+  await connectMongoDB()
+  const sqlizr = await connectSequelize()
+  const models = new Record({sqlizr})
 
-app.use(express.static(path.join(__dirname, 'build')))
-app.use(bodyParser.json({ extended: false }));
-app.use(cors({ origin: true, credentials: true }))
-app.use('/api/adventures', adventures)
-app.get('/', (req, res) => { res.send('Hello World!') })
+  app.use(express.static(path.join(__dirname, 'build')))
+  app.use(bodyParser.json({ extended: false }));
+  app.use(cors({ origin: true, credentials: true }))
+  app.use('/api/adventures', setupAdventureRoute(models))
+  app.get('/', (req, res) => { res.send('Hello World!') })
 
-const port = process.env.PORT || 8082
+  const port = process.env.PORT || 8082
 
-app.listen(port, () => { console.log(`Server listening on port ${port}`) })
+  app.listen(port, () => { console.log(`Server listening on port ${port}`) })
+}
+
+bootstrap()
