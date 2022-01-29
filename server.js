@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const { connectMongoDB, connectSequelize } = require('./config/db')
+const { connectSequelize } = require('./config/db')
 const setupAdventureRoute = require('./routes/api/adventures')
 const path = require('path')
 const cors = require('cors')
@@ -8,11 +8,10 @@ const Record = require('./models/Record')
 const app = express()
 
 const bootstrap = async () => {
-  await connectMongoDB()
   const sqlizr = await connectSequelize()
   const models = new Record({sqlizr})
 
-  app.use(express.static(path.join(__dirname, 'build')))
+  app.use(express.static(path.join(__dirname, 'build'))) 
   app.use(bodyParser.json({ extended: false }));
   app.use(cors({ origin: true, credentials: true }))
   app.use('/api/adventures', setupAdventureRoute(models))

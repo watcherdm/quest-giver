@@ -5,8 +5,8 @@
   --clr-primary: #6b1fb1
 };
 
-.App {
-  text-align: center;
+#root {
+  background-color: var(-clr-background);
 }
 
 .App-logo {
@@ -126,4 +126,12 @@ a {
 .toolbar {
   display: inline-block;
   position: relative;
+}
+
+.totvg {
+  background-image: url('./assets/totvg-cover.png')
+}
+
+.bbbb {
+  background-image: url('./assets/bbbb-cover.png')
 }

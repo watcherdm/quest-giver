@@ -1,3 +1,8 @@
 {
-  "mongoURI": "mongodb://127.0.0.1:27017"
+  "username": "dev",
+  "password": "test1234",
+  "database": "watcher_quest-giver-local",
+  "host": "127.0.0.1",
+  "dialect": "postgres"
+
 }
