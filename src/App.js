@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div id="root" className="m-10 flex flex-row">
+      <div className="m-10 flex flex-row">
         <div className="basis-1/5"></div>
         <div className='basis-3/5'>
           <Router>

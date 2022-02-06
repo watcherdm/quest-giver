@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/watcher/public_html/quest-giver/
     - /bin/cp -R build/ $DEPLOYPATH
+    - /bin/mv build/* .
