@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5fdd753f.css",
-    "main.js": "/static/js/main.0ce79310.js",
+    "main.js": "/static/js/main.b501b412.js",
     "static/js/787.64ad88e9.chunk.js": "/static/js/787.64ad88e9.chunk.js",
     "static/media/totvg-cover.png": "/static/media/totvg-cover.6b8c6f2f8157aef78744.png",
     "static/media/bbbb-cover.png": "/static/media/bbbb-cover.3005d9b5b1e075e6dc7f.png",
@@ -9,11 +9,11 @@
     "static/media/black-knight.png": "/static/media/black-knight.84fc09fc8e81790619e6.png",
     "index.html": "/index.html",
     "main.5fdd753f.css.map": "/static/css/main.5fdd753f.css.map",
-    "main.0ce79310.js.map": "/static/js/main.0ce79310.js.map",
+    "main.b501b412.js.map": "/static/js/main.b501b412.js.map",
     "787.64ad88e9.chunk.js.map": "/static/js/787.64ad88e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fdd753f.css",
-    "static/js/main.0ce79310.js"
+    "static/js/main.b501b412.js"
   ]
 }
