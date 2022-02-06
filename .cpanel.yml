@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/watcher/public_html/quest-giver/
+    - /bin/cp build/* $DEPLOYPATH
