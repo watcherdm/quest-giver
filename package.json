@@ -9,7 +9,7 @@
     "start": "node server.js",
     "app": "yarn build:style && concurrently --kill-others \"yarn react\" \"nodemon server.js\"",
     "react": "craco start",
-    "build": "craco build",
+    "build": "yarn build:style && craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },

@@ -1,7 +1,6 @@
 :root {
-  --clr-background: #000000;
-  --clr-foreground: #f8e3c4;
-  --clr-accent: #cc3495;
+  --clr-background: #000;
+  --clr-accent: #fff7b4;
   --clr-primary: #6b1fb1
 };
 
@@ -134,4 +133,17 @@ a {
 
 .bbbb {
   background-image: url('./assets/bbbb-cover.png')
+}
+
+.bkpc {
+  background-image: url('./assets/black-knight.png')
+}
+
+.gmj5e {
+  background-image: url('./assets/gmj5e.png')
+}
+
+#root {
+  z-index: 1;
+  overflow: hidden;
 }
