@@ -26,9 +26,11 @@ function App() {
                 </a>
               </div>
               <div className="basis-1/2">
-                <div className="border-2 bbbb-container m-12 bbbb bg-center bg-cover h-96 rounded-3xl text-center">
-                  <h1 className='relative p-2 pb-0 top-4 bg-black text-3xl'>Bloody Bellboots Boogie <br/> Coming Soon!</h1>
-                </div>
+                <a href="https://tinyurl.com/Bellboots">
+                  <div className="border-2 bbbb-container m-12 bbbb bg-center bg-cover h-96 rounded-3xl text-center">
+                    <h1 className='relative p-2 pb-0 top-4 bg-black text-3xl'>Bloody Bellboots Boogie <br/> Coming Soon!</h1>
+                  </div>
+                </a>
               </div>
             </div>
             <div className="flex-row flex">
