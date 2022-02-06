@@ -616,14 +616,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-shadow-lg {
-  text-shadow: -20px 0px 3px rgba(0,0,0,0.5);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
 
 body {
-  background-color: black;
   color: white;
   margin: 0;
   font-family: 'Ramaraja', serif;
