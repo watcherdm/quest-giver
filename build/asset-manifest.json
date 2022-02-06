@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0cf3bdf.css",
-    "main.js": "/static/js/main.9e13d931.js",
+    "main.css": "/static/css/main.5fdd753f.css",
+    "main.js": "/static/js/main.0ce79310.js",
     "static/js/787.64ad88e9.chunk.js": "/static/js/787.64ad88e9.chunk.js",
     "static/media/totvg-cover.png": "/static/media/totvg-cover.6b8c6f2f8157aef78744.png",
     "static/media/bbbb-cover.png": "/static/media/bbbb-cover.3005d9b5b1e075e6dc7f.png",
     "static/media/gmj5e.png": "/static/media/gmj5e.9927c223719b27071a95.png",
     "static/media/black-knight.png": "/static/media/black-knight.84fc09fc8e81790619e6.png",
     "index.html": "/index.html",
-    "main.d0cf3bdf.css.map": "/static/css/main.d0cf3bdf.css.map",
-    "main.9e13d931.js.map": "/static/js/main.9e13d931.js.map",
+    "main.5fdd753f.css.map": "/static/css/main.5fdd753f.css.map",
+    "main.0ce79310.js.map": "/static/js/main.0ce79310.js.map",
     "787.64ad88e9.chunk.js.map": "/static/js/787.64ad88e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0cf3bdf.css",
-    "static/js/main.9e13d931.js"
+    "static/css/main.5fdd753f.css",
+    "static/js/main.0ce79310.js"
   ]
 }
